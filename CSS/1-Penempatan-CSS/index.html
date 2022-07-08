@@ -3,19 +3,22 @@
 <html>
     <head>
         <title>Coba CSS</title>
+
+        <!--internal css-->
         <style>
+            html{background-color: rgb(0, 0, 0);}
             body{font-family: arial;}
-            h1{ color: lightblue;}
-            p{
-                line-height: 1,6em;
-                color: green;
-            }
         </style>
+
+        <!--external css-->
+        <link rel="stylesheet" href="style.css">
+
     </head>
 
     <body>
-        <h1>Za Warudo</h1>
+        <h1>Za Warudo ザワルド</h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque unde ut velit nulla molestiae facilis architecto doloribus fugit excepturi quas odit aut laborum, maxime accusantium consequuntur asperiores ratione autem laboriosam!</p>
+        <!-- inline css-->
+        <p style="color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque unde ut velit nulla molestiae facilis architecto doloribus fugit excepturi quas odit aut laborum, maxime accusantium consequuntur asperiores ratione autem laboriosam!</p>
     </body>
 </html>

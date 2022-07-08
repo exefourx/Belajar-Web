@@ -1,0 +1,15 @@
+/*Simple Selector*/
+ {
+    color: green;
+    font-size: xx-large;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.paragraph2 {
+    color: rgb(163, 140, 140);
+    font-size: xx-large;
+    font-weight: 1000;
+    text-align: center;
+}
+

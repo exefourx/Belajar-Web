@@ -29,4 +29,55 @@
     }
 
     
-/*Selector Combinator, digunakan untuk memilih suatu elemen yang memiliki hubungan dengan elemen lain*/
+/*Selector Combinator*/
+
+    /*Descandant Selector*/
+    div .descandant {
+        color: rgb(26, 26, 177);
+    }
+
+    /*Child Selector*/
+    .child > p {
+        color: rgb(4, 134, 0);
+    }
+
+    /*Adjacent Sibling Selector*/
+    .adjacent_sibling + p {
+        background-color: rgb(81, 160, 206);
+    }
+
+    /*General Sibling Selector*/
+    .general_sibling ~ p {
+        background-color: blueviolet;
+    }
+    
+
+/*Selector Pseudo-class*/
+
+    /*efek hover*/
+    #contoh_hover {
+        width: 100%;
+        height: 50%;
+        background: red;
+    }
+
+    #contoh_hover:hover{
+        width: 100%;
+        height: 50%;
+        background: yellow;
+    }
+
+
+/*Selector Pseudo-elements*/
+
+    /*::first-letter*/
+    #pseudo_elements::first-letter {
+        color: aqua;
+        font-size: xx-large;
+    }
+
+/*Selector Attribute*/
+    a[target=_blank] {
+        background-color: yellow;
+        font-size: x-large;
+    }

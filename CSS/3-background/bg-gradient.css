@@ -1,7 +1,8 @@
 body{
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, 
-    rgba(255,255,255,1) 0%,
-    rgba(41,217,230,1) 54%,
-    rgba(45, 253, 147, 0.2774170713221773) 100%);
+    height: 1000px;
+    background: #2CA516;
+    background: -webkit-linear-gradient(top, #2CA516, #96F3F9);
+    background: -moz-linear-gradient(top, #2CA516, #96F3F9);
+    background: linear-gradient(to bottom, #2CA516, #96F3F9);
+
 }

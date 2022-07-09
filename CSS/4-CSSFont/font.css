@@ -1,0 +1,26 @@
+h1 {
+    font: 30px arial, sans-serif;
+}
+
+p {
+    /*Value Property Font-Family.
+    note: deklarasikan dua nama font dan dari font-family agar ada cadangan jika font minghilang*/
+    font-family: georgia, serif;
+
+    /*Value Property Weight:
+    normal(tebal normal), lighter(lebih tipis), bolder(lebih tebal), bold(tebal) 100-900(custom)*/
+    font-weight: bold;
+
+    /*Value Property Collor*/
+    color: blue;
+
+    /*Value Property Font-style.
+    seperti: normal, italic*/
+    font-style: italic;
+
+    /*Value Property Font-Size.
+    px (nilai pasti) dan em (nilai relative)
+    */
+    font-size: 20px;
+}
+
